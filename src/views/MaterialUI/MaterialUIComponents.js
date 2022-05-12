@@ -20,7 +20,7 @@ import {
   import LockOutlinedIcon from "@mui/icons-material/LockOutlined";
 
 
-export const MaterialUIComponents = () => {
+export default function MaterialUIComponents() {
   //   const [data, setdata] = useState(null);
   // useEffect(() => {
   // fetch("https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY")
