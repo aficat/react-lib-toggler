@@ -124,7 +124,7 @@ function MUITemplates() {
   );
 }
 
-export default function MaterialUIComponents() {
+export default function MaterialUIPage() {
   const [value, setValue] = React.useState(0);
   const handleChange = (event: React.SyntheticEvent, newValue: number) => {
     setValue(newValue);
@@ -136,9 +136,9 @@ export default function MaterialUIComponents() {
         <Typography variant="h1" component="h2">
           Material UI Library
         </Typography>
-        <p>Version Number: xxx</p>
+        <p>Version Number: v5.6.4</p>
       </Container>
-      <Container maxWidth="md">
+      <Container maxWidth="lg">
         <Box sx={{ borderBottom: 1, borderColor: "divider" }}>
           <Tabs
             value={value}

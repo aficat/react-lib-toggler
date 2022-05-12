@@ -1,9 +1,9 @@
 import "./App.css";
 import React from "react";
 import { BrowserRouter as Router, Route, Link, Routes } from "react-router-dom";
-import MaterialUIComponents from "./views/MaterialUI/MaterialUIComponents";
-import AntDesignComponents from "./views/AntDesign/AntDesignComponents";
-import BootstrapComponents from "./views/Bootstrap/BootstrapComponents";
+import MaterialUIPage from "./views/MaterialUI/MaterialUIPage";
+import AntDesignPage from "./views/AntDesign/AntDesignPage";
+import BootstrapPage from "./views/Bootstrap/BootstrapPage";
 
 function App() {
   return (
@@ -87,9 +87,9 @@ function App() {
                 </div>
               }
             />
-            <Route exact path="/mui" element={<MaterialUIComponents />} />
-            <Route exact path="/ad" element={<AntDesignComponents />} />
-            <Route exact path="/bs" element={<BootstrapComponents />} />
+            <Route exact path="/mui" element={<MaterialUIPage />} />
+            <Route exact path="/ad" element={<AntDesignPage />} />
+            <Route exact path="/bs" element={<BootstrapPage />} />
           </Routes>
         </div>
       </Router>

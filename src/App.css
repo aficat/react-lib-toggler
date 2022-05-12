@@ -3333,6 +3333,10 @@ td, th {
   float: left !important;
 }
 
+.centered-align {
+  left: 50%;
+}
+
 .right {
   float: right !important;
 }
